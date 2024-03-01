@@ -1,0 +1,14 @@
+[package]
+name = "ginfo"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/klaatu01/ginfo"
+description = "A simple command line tool to display header information of gzipped data."
+license = "MIT"
+readme = "README.md"
+keywords = ["gzip", "header", "info", "ginfo"]
+
+[dependencies]
+base64 = "0.21.7"
+chrono = "0.4.34"
+clap = { version = "4.5.1", features = ["derive"] }
