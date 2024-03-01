@@ -28,7 +28,6 @@ use chrono::{DateTime, Utc};
 #[derive(clap_derive::Parser)]
 struct Args {
     /// The filename to read from. If not provided, read from stdin.
-    #[arg(last = true)]
     file: Option<String>,
 
     /// Read the input as base64 encoded.
